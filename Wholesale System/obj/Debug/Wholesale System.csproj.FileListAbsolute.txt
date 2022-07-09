@@ -1,0 +1,30 @@
+c:\users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\bin\Debug\Wholesale System.exe.config
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\bin\Debug\Wholesale System.exe
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\bin\Debug\Wholesale System.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale System.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.log_in.resources
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale System.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale System.exe
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale System.pdb
+C:\Users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Home.resources
+C:\Users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Admin.resources
+C:\Users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Seller.resources
+C:\Users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.dataContainer.resources
+C:\Users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.cart.resources
+C:\Users\admin\documents\visual studio 2012\Projects\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.ProductContainer.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\bin\Debug\Wholesale System.exe.config
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale System.exe
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale System.pdb
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\bin\Debug\Wholesale System.exe
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\bin\Debug\Wholesale System.pdb
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale System.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Admin.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.log_in.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Home.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.dataContainer.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.ProductContainer.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.cart.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale_System.Seller.resources
+C:\Users\admin\Desktop\Wholesale System\Wholesale System\obj\Debug\Wholesale System.csproj.GenerateResource.Cache

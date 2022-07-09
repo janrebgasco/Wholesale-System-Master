@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87826A12-8D67-4A14-93CC-E844CD6C4EF5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wholesale_System</RootNamespace>
+    <AssemblyName>Wholesale System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dataContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dataContainer.Designer.cs">
+      <DependentUpon>dataContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductContainer.Designer.cs">
+      <DependentUpon>ProductContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cart.Designer.cs">
+      <DependentUpon>cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_form.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seller.Designer.cs">
+      <DependentUpon>Seller.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataContainer.resx">
+      <DependentUpon>dataContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductContainer.resx">
+      <DependentUpon>ProductContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Seller.resx">
+      <DependentUpon>Seller.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signupp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saleoffer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confetti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2858%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2860%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2860%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2861%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73085-and-discount-tear-price-sales-sale-discounts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sssaaaale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asd123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asd1231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-shopping-101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-online-banner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sponsor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-Cart-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saleBmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bmrk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ETONA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suitcase.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addadmin.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
